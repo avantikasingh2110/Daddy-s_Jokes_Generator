@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* user-select: none; */
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_div {
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+#joke-display {
+    padding: 15px;
+    margin: 40px;
+}
+
+#joke-button {
+    align-items: center;
+    width: 450px;
+    font-size: 2rem;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: "Playwrite GB S", serif;
+    font-weight: 600;
+}
+
+#joke-button:hover {
+    background-color: #45a049;
+}
