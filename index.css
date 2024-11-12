@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* user-select: none; */
+    user-select: none;
 }
 
 body {
@@ -11,6 +11,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background: linear-gradient(180deg, hsla(279, 83%, 70%, 1) 0%, hsla(321, 90%, 70%, 1) 100%); */
+    background-image: url(./images/ba.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #main_div {
@@ -20,8 +25,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 15px;
+    /* background: linear-gradient(180deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);    */
+    border-radius: 15px;
+    /* box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); */
+    /* background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 h1 {
@@ -29,11 +41,16 @@ h1 {
     font-family: "Edu AU VIC WA NT Pre", cursive;
     padding: 10px;
     margin-bottom: 25px;
+    color: rgb(80, 22, 22);
 }
 
 #joke-display {
     padding: 15px;
     margin: 40px;
+    font-size: 1.2rem;
+    color: rgb(248, 185, 108);
+    font-family: "Playwrite GB S", serif;
+    font-weight: 600;
 }
 
 #joke-button {
@@ -45,8 +62,14 @@ h1 {
     border-radius: 10px;
     font-family: "Playwrite GB S", serif;
     font-weight: 600;
+    /* background-color: rgb(251, 1, 230); */
+    background-color: rgb(60, 38, 38);
+    color: white;
+    border: none;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
 }
 
 #joke-button:hover {
-    background-color: #45a049;
+    background-color: blanchedalmond;
+    color: brown;
 }
